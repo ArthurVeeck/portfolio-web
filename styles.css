@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border: 5px;
+    border-style: solid;
+    border-color: #000;
+    
+}
+h2{
+    text-align: center;
+    
+}
+li{
+    text-align: right;
+    
+}
