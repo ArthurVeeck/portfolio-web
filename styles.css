@@ -3,17 +3,99 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header{
+    flex-direction: row;
+    display: flex;
     border: 5px;
     border-style: solid;
     border-color: #000;
-    
+    justify-content: space-between;
+    border-radius: 10px;
+    background-image: url('roxo.webp');
 }
+
+body{
+    background-color: rgb(85, 38, 122);
+}
+
 h2{
     text-align: center;
+    color: rgb(8, 138, 116);
+}
+
+main{
+    height: 1000px;
+    border: 5px;
+    border-style: solid;
+    border-color: #000;
+    align-content: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgb(67, 49, 116), red);
+}
+
+section{
+    display: flex;
+    height: 175px;
+    width: 1160px;
+    text-align: center;
+    border: 4px;
+    border-style: solid;
+    border-color: #000;
+    justify-content: center;
+    border-radius: 10px;
     
 }
-li{
-    text-align: right;
+
+.caixa{
+    height: 170px;
+    width: 130px;
+    text-align: center;
+    border: 4px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 10px;
+}
+
+aside{
+    height: 140px;
+    width: 500px;
+    text-align: center;
+    border: 4px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 10px;
+}
+
+footer{
+    height: 300px;
+    width: 1160px;
+    text-align: center;
+    border: 4px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 10px;
     
+}
+
+.insta{
+    height: 30px;
+    width: 30px;
+}
+
+.face{
+    height: 30px;
+    width: 30px;
+}
+
+.link{
+    height: 40px;
+    width: 40px;
+}
+
+.gmail{
+    height: 30px;
+    width: 30px;
 }
